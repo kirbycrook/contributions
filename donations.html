@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet template page</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="css/ratchet.css" rel="stylesheet">
+
+    <style>
+  @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+  </style>
+    <!-- Include the compiled Ratchet JS -->
+    <script src="js/ratchet.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+<nav class="bar bar-tab">
+  <a class="tab-item" href="no-trans.html">
+    <span class="icon icon-home"></span>
+    <span class="tab-label">Home</span>
+  </a>
+  <a class="tab-item active" href="#">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">Donations</span>
+  </a>
+  <a class="tab-item" href="#">
+    <span class="icon icon-gear"></span>
+    <span class="tab-label">Settings</span>
+  </a>
+</nav>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content" style="background-color: #f6f6f6;">
+      <div style="height: 40%; width: 100%; background-color: #7EB2E9;">
+        <h5 style="margin-top: 0px; padding-top: 20px; color: white;">YOU'VE DONATED</h5>
+        <p class="card-title" style="color: white; font-size: 50px; margin-top: 60px; margin-bottom: 20px;">$1.32</p>
+        <div style="display: flex; justify-content: center;">
+          <div>
+            <p class="card-body" style="color: white; margin-top: 20px; margin-bottom: 5px; margin-left: 0;">FROM:</p>
+          <button class="btn btn-outlined" style="margin-left: 0px; background-color: rgba(255,255,255,.5); font-family: 'Lato'; color: white;">3/7/2017</button>
+        </div>
+        <div>
+            <p class="card-body" style="color: white; margin-top: 20px; margin-bottom: 5px; margin-left: 40px;">TO:</p>
+          <button class="btn btn-outlined" style="margin-left: 20px; background-color: rgba(255,255,255,.5); margin-left: 40px; font-family: 'Lato'; color: white;">3/31/2017</button>
+        </div>
+        <div>
+            <p class="card-body" style="color: white; margin-top: 20px; margin-bottom: 5px; margin-left: 40px;">ORGANIZATIONS:</p>
+          <button class="btn btn-outlined" style="margin-left: 20px; background-color: rgba(255,255,255,.5); margin-left: 40px; width: 100px; text-align: left; font-family: 'Lato'; color: white;">ALL</button>
+        </div>
+      </div>  
+      <div class="card card--small" style="margin: 0 auto; margin-top: 50px; height: 260px;">
+        <p class="card-body" style="margin-top:20px; font-weight: 700;">MARCH 7, 2017</p>
+        <p class="item-name">ASPCA OF INDIANAPOLIS</p>
+        <p class="item-name" id="invoice" STYLE="color: #7EB2E9;">$.39</p>
+        <hr style="color: #e0e0e0; background-color: #e0e0e0; border: 1px solid #e0e0e0;">
+        <p class="card-body" style="margin-top:20px; font-weight: 700;">MARCH 9, 2017</p>
+        <p class="item-name">ASPCA OF INDIANAPOLIS</p>
+        <p class="item-name" id="invoice" STYLE="color: #7EB2E9;">$.50</p>
+        <hr style="color: #e0e0e0; background-color: #e0e0e0; border: 1px solid #e0e0e0;">
+                <p class="card-body" style="margin-top:20px; font-weight: 700;">MARCH 16, 2017</p>
+        <p class="item-name">ASPCA OF INDIANAPOLIS</p>
+        <p class="item-name" id="invoice" STYLE="color: #7EB2E9;">$.43</p>
+
+      </div>
+
+
+  </body>
+</html>
